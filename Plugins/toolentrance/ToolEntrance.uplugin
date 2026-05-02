@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Perfect Tool Entrance",
+	"Description": "The entrance of perfect's tools",
+	"Category": "Tools",
+	"CreatedBy": "Perfect World",
+	"EnabledByDefault": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ToolEntrance",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "ToolEntrance",
+			"LoadingPolicy": "Always"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.5.1-0+UE5_QA",
+	"FriendlyName": "CriWare Sofdec Cinematics Plugin",
+	"Description": "Adds composition of Sofdec movies  in sequencer",
+	"Category": "CriWare",
+	"CreatedBy": "CRI Middleware Co., Ltd.",
+	"CreatedByURL": "https://game.criware.jp",
+	"DocsURL": "https://game.criware.jp/learn/manual/",
+	"SupportURL": "https://www.criware.jp/",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CriWareManaMovieScenes",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "CriWareManaSequencer",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CriWareMana",
+			"Enabled": true
+		}
+	]
+}

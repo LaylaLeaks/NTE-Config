@@ -1,0 +1,19 @@
+{
+	"FileVersion": 2,
+	"FriendlyName": "Game Client SDK Plugin",
+	"Version": 3,
+	"VersionName": "2.0",
+	"Description": "game client sdk",
+	"Category": "Hotta",
+	"CreatedBy": "HottaGames, Inc.",
+	"CreatedByURL": "http://www.hottagames.com",
+	"CanContainContent": "false",
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "GameClientSDK",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+  "FileVersion": 3,
+  "Version": 2,
+  "VersionName": "2.0",
+  "FriendlyName": "Nuwa",
+  "Description": "Contains Pinch Expression Fuse, Emoticon Recording, Voice Transshipment for UE5.1",
+  "Category": "Other",
+  "CreatedBy": "Lichangsheng",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "Suported By PixelStorm Lichangsheng",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "Nuwa",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "NuwaEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "ExpressionEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "DLipSyncTool",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [
+        "Win64"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    }
+  ]
+}

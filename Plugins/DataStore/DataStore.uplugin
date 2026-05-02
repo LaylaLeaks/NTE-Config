@@ -1,0 +1,19 @@
+{
+	"FileVersion": 2,
+	"FriendlyName": "Data Store Plugin",
+	"Version": 3,
+	"VersionName": "2.0",
+	"Description": "Save persistence game data",
+	"Category": "Hotta",
+	"CreatedBy": "HottaGames, Inc.",
+	"CreatedByURL": "http://www.hottagames.com",
+	"CanContainContent": "false",
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "DataStore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

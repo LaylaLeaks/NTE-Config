@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.5",
+	"FriendlyName": "Volumator",
+	"Description": "Procedural volume system",
+	"Category": "Volume Generation",
+	"CreatedBy": "Precision Sound Design",
+	"CreatedByURL": "",
+	"DocsURL": "https://www.precisionsounddesign.com/volumator",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/ff751a91-4cfc-4e53-80a8-85939378d59f",
+	"SupportURL": "mailto:volumator@precisionsounddesign.com?subject=Volumator%20Support",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Volumator",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}

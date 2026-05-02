@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "2.10.2.0",
+	"FriendlyName": "PWCrash",
+	"Description": "移动项目支持部Unreal CrashedSdk Plugin",
+	"Category": "Other",
+	"CreatedBy": "lichangsheng",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PWCrash",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "PreLoadingScreen"
+		},
+		{
+			"Name": "PWCrashEditor",
+			"Type": "Editor"
+		}
+	]
+}

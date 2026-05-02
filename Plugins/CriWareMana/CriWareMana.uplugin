@@ -1,0 +1,98 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.5.1-0+UE5_QA",
+	"FriendlyName": "CriWare Sofdec",
+	"Description": "CriWare Sofdec movie player",
+	"Category": "CriWare",
+	"CreatedBy": "CRI Middleware Co., Ltd.",
+	"CreatedByURL": "https://game.criware.jp",
+	"DocsURL": "https://game.criware.jp/learn/manual/",
+	"SupportURL": "https://www.criware.jp/",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CriWareMana",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "CriWareManaEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "CriWareManaEditorSettings",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "CriWareManaWindows",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64",
+				"WinGDK"
+			]
+		},
+		{
+			"Name": "CriWareManaWindowsSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "CriWareManaWindowsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "CriWareManaAndroid",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Android"
+			]
+		},
+		{
+			"Name": "CriWareManaAndroidSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "CriWareManaApple",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Mac", "IOS", "TVOS", "VisionOS"
+			]
+		},
+		{
+			"Name": "CriWareManaAppleSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "CriWareManaLinux",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Linux", "LinuxArm64"
+			]
+		},
+		{
+			"Name": "CriWareManaLinuxSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CriWare",
+			"Enabled": true
+		}
+	]
+}

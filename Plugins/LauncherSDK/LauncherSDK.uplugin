@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1.1.0",
+	"FriendlyName": "LauncherSDK",
+	"Description": "Pc Special Sdk",
+	"Category": "Other",
+	"CreatedBy": "hezongzhu",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LauncherSDK",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms" : ["Win64"]
+		}
+	]
+}

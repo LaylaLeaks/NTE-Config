@@ -1,0 +1,46 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "2.5.1-0+UE5_QA",	"VersionName": "2.5.0-0+UE5_QA",
+	"FriendlyName": "CriWare Sofdec Plate",
+	"Description": "Actor that can play Sofdec Mana movies.",
+	"Category": "CriWare",
+	"CreatedBy": "CRI Middleware Co., Ltd.",
+	"CreatedByURL": "https://game.criware.jp",
+	"DocsURL": "https://game.criware.jp/learn/manual/",
+	"SupportURL": "https://www.criware.jp/",
+	"CanContainContent": true,
+	"EnabledByDefault": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CriWareManaPlate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CriWareManaPlateEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CriWareManaCinematics",
+			"TargetAllowList": [ "Editor" ],
+			"Enabled": true
+		},
+		{
+			"Name": "CriWareMana",
+			"TargetAllowList": [ "Editor" ],
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolset",
+			"TargetAllowList": [ "Editor" ],
+			"Enabled": true
+		}
+	]
+}

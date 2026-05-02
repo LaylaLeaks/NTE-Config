@@ -1,0 +1,35 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Online Subsystem Hotta",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"Description" : "Access to Hotta platform",
+	"Category" : "Online Platform",
+	"CreatedBy" : "Hotta Games, Inc.",
+	"CreatedByURL" : "http://hottagames.com",
+	"EnabledByDefault" : true,
+
+    "Modules": [
+        {
+            "Name": "OnlineSubsystemHotta",
+            "Type": "Runtime",
+            "LoadingPhase" : "Default"
+        }
+    ],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "GameClientSDK",
+			"Enabled": true
+		}
+	]
+
+}
