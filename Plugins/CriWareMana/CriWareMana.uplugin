@@ -9,7 +9,7 @@
 	"CreatedByURL": "https://game.criware.jp",
 	"DocsURL": "https://game.criware.jp/learn/manual/",
 	"SupportURL": "https://www.criware.jp/",
-	"EnabledByDefault": true,
+	"EnabledByDefault": false,
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -67,7 +67,10 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
 			"PlatformAllowList": [
-				"Mac", "IOS", "TVOS", "VisionOS"
+				"Mac",
+				"IOS",
+				"TVOS",
+				"VisionOS"
 			]
 		},
 		{
@@ -80,7 +83,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
 			"PlatformAllowList": [
-				"Linux", "LinuxArm64"
+				"Linux",
+				"LinuxArm64"
 			]
 		},
 		{
